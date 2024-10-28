@@ -1,42 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>header-3</title>
     <link rel="stylesheet" href="./Assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="section DM-Sans">
 
-<div class="container w-100">
-    <nav class="d-flex justify-content-between  ">
-        <p class="icons d-md-none ">
-            <ion-icon name="menu-outline" class="mobile-icons"></ion-icon>
-        </p>
-            <div class="left-nav d-flex">
-        <ul class="list">
-            <li class="logo fs-3">Startup 3</li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Community</a></li>
-        </ul>
+        <div class="container w-100">
+           
+            <nav class="d-flex justify-content-between">
+                <div class="left-nav d-flex">
+                    <div class="logo fs-3">Startup 3</div>
+                    <p class="menu-icon d-md-none">
+                        <ion-icon name="menu-outline" class="mobile-icons"></ion-icon>
+                    </p>
+                    <ul class="list">
+                        <li class="product"><a href="#">Products <svg width="13" height="7" viewBox="0 0 13 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.072 1.07143C12.072 0.982143 12.0273 0.881696 11.9604 0.814732L11.4023 0.256696C11.3354 0.189732 11.2349 0.145089 11.1456 0.145089C11.0564 0.145089 10.9559 0.189732 10.889 0.256696L6.50279 4.64286L2.11663 0.256696C2.04967 0.189732 1.94922 0.145089 1.85993 0.145089C1.75949 0.145089 1.6702 0.189732 1.60324 0.256696L1.0452 0.814732C0.978237 0.881696 0.933594 0.982143 0.933594 1.07143C0.933594 1.16071 0.978237 1.26116 1.0452 1.32812L6.24609 6.52902C6.31306 6.59598 6.4135 6.64062 6.50279 6.64062C6.59208 6.64062 6.69252 6.59598 6.75949 6.52902L11.9604 1.32812C12.0273 1.26116 12.072 1.16071 12.072 1.07143Z" fill="#151439" fill-opacity="0.4"/>
+                            </svg>
+                            <ul class="dropdown">
+                                <li>product<li>
+                                <li>Product<li>
+                                </ul>
+                            </a></li>
+                            
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="right-nav d-flex">
+                    <ul class="list">
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#"><button class="btn fs-6 text-white">Sign Up</button></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-center min-vh-100 d-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-12 col-lg-6 mb-4">
+                        <p class="heading ">
+                            A high-quality solution for those who want a beautiful startup website quickly
+                        </p>
+                        <form>
+                            <input type="email" placeholder="Your email" class="mb-4 email"><br>
+                            <input type="password" placeholder="Your password" class="mb-4"><br>
+                            <button class="mb-4 sign-in-btn text-white">Sign In</button>
+                        </form>
+                        <p class="para">By signing up, you agree to the Terms of Service</p>
+                    </div>
+                    <div class="col-6 col-12 col-lg-6 mb-4">
+                        <iframe width="" height="" class="video mb-4"
+                            src="https://www.youtube.com/embed/OsPOBsclJLU?si=FNVAqDiW2WbAAioA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen width="100%"
+                            ></iframe>
+                        <p class="video-para">We made it so beutiful and simple. It combines landings, pages, blogs and
+                            shop screens. It is definitely the tool you need in your collection! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="right-nav d-flex">
-        <ul class="list-2">
-            <li><a href="#">API</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#"><button class="btn fs-6 text-white">Sign Up</button></a></li>
-        </ul>
-    </div>
-  </div>
-</nav>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="./Assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./Assets/js/app.js"></script>
 </body>
+
 </html>
