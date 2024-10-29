@@ -4,8 +4,6 @@
 .DM-Sans {
     font-family: "DM Sans";
 }
-
-
 .w-100 {
     width: 100%;
 }
@@ -109,24 +107,13 @@ input {
     height: 20px;
 }
 
-.dropdown {
-    display: none;
-    max-width: 150px;
-    background-color: rgb(136, 161, 161);
-}
-
-.product:hover {
-    .dropdown {
-        display: block;
-
-    }
-}
-
 .video {
     max-width: 480px;
     min-height: 200px;
     width: 100%;
 }
+
+
 
 @media (max-width:768.98px) {
     .list {
@@ -136,6 +123,7 @@ input {
         top: 0%;
         right: -100%;
         flex-direction: column;
+        display: block;
         justify-content: center;
         align-items: center;
         gap: 20px;
@@ -145,10 +133,13 @@ input {
         z-index: 1;
     }
 
+    .links{
+        gap: 20px;
+    }
+
     li a {
         color: black;
     }
-
 
     .mobile-icons {
         position: fixed;
@@ -166,6 +157,18 @@ input {
         right: 0;
     }
 
+ 
+ul{
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+}
+.right-link{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    margin-bottom: 150px !important;
+    gap: 20px !important;
+}
 }
 
 @media (max-width:992px) {
@@ -176,5 +179,13 @@ input {
 @media (max-width:576px) {
     .heading{
         font-size: 32px !important;
+    }
+}
+
+@media (min-width:992px) {
+    .right-link{
+        position: absolute;
+        right: 10%;
+        cursor: default;
     }
 }
