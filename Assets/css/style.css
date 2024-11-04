@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
+.section{
+    overflow: hidden;
+}
 
 .DM-Sans {
     font-family: "DM Sans";
@@ -115,7 +117,7 @@ input {
 
 
 
-@media (max-width:768.98px) {
+@media (max-width:767.98px) {
     .list {
         position: fixed;
         width: 100%;
